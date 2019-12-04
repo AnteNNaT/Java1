@@ -23,6 +23,7 @@ public class HomeTask {
     }
 
     public static void greetings(String name) {
+
         System.out.println("Привет, "+ name);
     }
 
