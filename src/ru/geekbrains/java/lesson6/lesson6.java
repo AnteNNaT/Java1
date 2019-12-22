@@ -49,7 +49,7 @@ public class lesson6 {
             byte[] b=new byte[fis.available()];
             fis.read(b);
             fis.close();
-            byte[] s= new byte[SearchedString.length()-1];
+            byte[] s= new byte[SearchedString.length()];
             s=SearchedString.getBytes();
             for (int i=0;i<(b.length-s.length+1);i++){
                 if ((s[0]==b[i])&&(s.length==1)) return (i+1);
